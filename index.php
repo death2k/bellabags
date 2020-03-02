@@ -1,20 +1,22 @@
 <?php 
 
 require_once("vendor/autoload.php");
+use Cafe\Sql;
+
+
 
 $app = new \Slim\Slim();
 
 $app->config('debug', true);
 
 $app->get('/', function() {
-    
-	$sql = new Web17\src\Sql();
+	
+	
+	$sql = new Cafe\Sql();
 
 	$results = $sql->select("SELECT * FROM tb_users");
 
 	echo json_encode($results);
-
-
 
 });
 

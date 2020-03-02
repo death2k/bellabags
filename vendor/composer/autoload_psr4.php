@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Web17code\\' => array($baseDir . '/src'),
+    'Cafe\\' => array($baseDir . '/src'),
 );

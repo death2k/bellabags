@@ -1,8 +1,8 @@
 <?php
 
-namespace DB;
+namespace Cafe;
 
-class Sql extends AnotherClass implements Interface
+class Sql
 {
     
     const HOSTNAME = "127.0.0.1";
