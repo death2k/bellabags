@@ -6,8 +6,6 @@ use Codemy\DB\Sql as Sql;
 require_once 'app/start.php';
 
 
-
-
 $app = new \Slim\Slim();
 
 $app->config('debug', true);
