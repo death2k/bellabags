@@ -1,11 +1,11 @@
 <?php
 
-namespace Cafe;
+namespace Codemy\DB;
 
 class Sql
 {
     
-    const HOSTNAME = "127.0.0.1";
+    const HOSTNAME = "localhost";
     const USERNAME = "root";
     const PASSWORD = "test";
     const DBNAME = "db_ecommerce";
@@ -14,11 +14,11 @@ class Sql
 
     public function __construct()
     {
-        $this->conn = new \PDO(
-            "mysql:dbname=".Sql::DBNAME.";host=".Sql::HOSTNAME, 
-            Sql::USERNAME,
-            Sql::PASSWORD
-        );
+		$this->conn = new \PDO(
+			"mysql:dbname=".Sql::DBNAME.";host=".Sql::HOSTNAME, 
+			Sql::USERNAME,
+			Sql::PASSWORD
+		);
     }
 
     private function setParams($statement, $parameters = array())

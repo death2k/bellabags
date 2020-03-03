@@ -1,7 +1,10 @@
-<?php 
+<?php
 
-require_once("vendor/autoload.php");
-use Cafe\Sql;
+use Codemy\Repositories\UserRepository as UserRepository;
+use Codemy\Filters\AuthFilter as AuthFilter;
+use Codemy\DB\Sql as Sql;
+require_once 'app/start.php';
+
 
 
 
@@ -12,7 +15,7 @@ $app->config('debug', true);
 $app->get('/', function() {
 	
 	
-	$sql = new Cafe\Sql();
+	$sql = new Sql();
 
 	$results = $sql->select("SELECT * FROM tb_users");
 
