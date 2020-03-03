@@ -6,7 +6,6 @@ class Sql
 {
     
 	const HOSTNAME = "bellabags_db_1";
-	const PORT = "DB::insert('insert into users (id, name) values (?, ?)', [1, 'Dayle'])3308";
     const USERNAME = "root";
     const PASSWORD = "test";
     const DBNAME = "db_ecommerce";
@@ -16,7 +15,7 @@ class Sql
     public function __construct()
     {
 		$this->conn = new \PDO(
-			"mysql:dbname=".Sql::DBNAME.";host=".Sql::HOSTNAME.";port=".Sql::PORT, 
+			"mysql:dbname=".Sql::DBNAME.";host=".Sql::HOSTNAME, 
 			Sql::USERNAME,
 			Sql::PASSWORD
 		);
