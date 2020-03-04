@@ -74,12 +74,12 @@
         </div>
     </div> <!-- End header area -->
     
-    <div class="site-branding-area">
+    <div class="site-branding-area" style="background-color:#172d3c">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1> <!-- <a href="#"><img src="/Resource/site/img/logo.png"></a> --> BallaBags </h1> 
+                        <h1> <a href="#"><img src="/Resource/site/img/logobellabags.png"></a> </h1> 
                     </div>
                 </div>
                 

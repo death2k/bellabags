@@ -7,9 +7,9 @@
                     <h2>BellaBags</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
                     <div class="footer-social">
-                        <a href="https://www.facebook.com/hcodebr" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="https://twitter.com/hcodebr" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="https://www.youtube.com/channel/UCjWENuSH2gX55-y7QSZiWxA" target="_blank"><i class="fa fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/ballabags" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/ballabags" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -58,9 +58,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="copyright">
-                    <p>&copy; 2017 Hcode Treinamentos. <a href="http://www.hcode.com.br" target="_blank">hcode.com.br</a></p>
-                </div>
+                <div class="copyright"> <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.web17.com.br" target="_blank">Flávio Ribeiro</a> <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p> </div>
             </div>
             
             <div class="col-md-4">
