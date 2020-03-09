@@ -1,8 +1,6 @@
 
 run_scripts:
   stage: test
-  script:
-    - bundle install
   artifacts:
     paths:
       - tests/
