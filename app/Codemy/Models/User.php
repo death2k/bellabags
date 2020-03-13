@@ -21,9 +21,14 @@ class User extends Model {
 
 
         if (count($results) === 0) {
+            
+        
             throw new \Exception("Senha invalida ou Usuario invalido", 1);
+
             
         }
+
+        
         
         $data = $results[0];
  
@@ -59,8 +64,8 @@ class User extends Model {
     }
     // logout 
     public static function logout(){
-        //$_SESSION[User::SESSION] = NULL;
-        session_destroy();
+        $_SESSION[User::SESSION] = NULL;
+        //session_destroy();
     }
 }
 
