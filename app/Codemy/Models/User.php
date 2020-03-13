@@ -22,17 +22,11 @@ class User extends Model {
 
         if (count($results) === 0) {
             
-        
             throw new \Exception("Senha invalida ou Usuario invalido", 1);
-
-            
         }
 
-        
-        
         $data = $results[0];
  
-
         if (password_verify($password, $data["despassword"]) === true) {
             
             $user = new User();
@@ -47,11 +41,8 @@ class User extends Model {
         } else {
             throw new \Exception("Senha invalida ou Usuario invalido", 1);
         }
-
-
-
-
     }
+
     // verifica o login
     public static function verifyLogin($inadmin = true){
                 if (        !isset($_SESSION[User::SESSION]) ||

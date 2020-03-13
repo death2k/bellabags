@@ -1,6 +1,4 @@
 
-run_scripts:
-  stage: test
-  artifacts:
-    paths:
-      - tests/
+build:
+  script:
+    - echo "Hello World"
