@@ -238,15 +238,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>
-              Dashboard
+              Gerenciamento Admin
               <i class="right fas fa-angle-left"></i>
             </p>
-          </a>
+          </a> 
           <ul class="nav nav-treeview" style="display: none;">
             <li class="nav-item">
-              <a href="../../index.html" class="nav-link">
-                <i class="far fa-circle nav-icon"></i>
-                <p>Dashboard v1</p>
+              <a href="/admin/users" class="nav-link">
+                <i class="fa fa-users"></i>
+                <p> Usuários</p>
               </a>
             </li>
             <li class="nav-item">
